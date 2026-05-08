@@ -1,5 +1,5 @@
 # Pribambase
-Pribambase is a helper tool to ease and speed up lowpoly pixel textured, or 2.5D pixel art workflow. It links Aseprite and Blender editors, and handles a lot of repetitive manual operations which otherwise constitute a large and unexciting portion of the process.
+Pribambase is a helper tool to ease and speed up lowpoly pixel textured, or 2.5D pixel art workflow. It links Blender with Aseprite (and later... others), and handles a lot of repetitive manual operations which otherwise constitute a large and unexciting portion of the process.
 
 * Paint in Aseprite with instant viewport feedback in Blender. No need to save or export files.
 * Display UV map in Aseprite, which updates as you change the model.
@@ -19,7 +19,7 @@ Looking to add Pribambase to your workflow? download your prefered version here!
 
 Experimental: 
 
-* Download the source here as a zip and install it on Blender 3.x as an add-on
+* Download the source here as a zip and install it on Blender as an add-on
 
 ## Links
 Via Lampysprites (original creator) NOTE: These links may be dead please refer to the next section for further information
@@ -41,7 +41,7 @@ Please reach out to me via illusionofmana@gmail.com
 
 Source for [aseprite plugin](https://github.com/aseprite/api/blob/main/api/plugin.md) is the `client/` folder. The repo root is the [blender plugin](https://docs.blender.org/manual/en/latest/advanced/scripting/addon_tutorial.html#install-the-add-on). For using source, you'd probably want to symlink them to extension/addon locations.
 
-Third party python packages are bundled as wheel to allow offline installation, but aren't stored in the repo. Download them from PyPI to `thirdparty` folder, or fetch with PIP:
+Third party dependencies aren't stored in the repo. Download them from PyPI to `thirdparty` folder, or fetch with PIP:
 
 ```shell
 cd to/project/root
@@ -57,8 +57,9 @@ pip download -d thirdparty --platform win32 --only-binary=:all: -r requirements.
 
 ## License
 
-Although GPL license spread from some borrowed code, most of the project is MIT.
+Since GPL license spread from some borrowed code, The addon is distributed under GPL-3.0 License. See LICENSE for full license text. Specific files or libraries might be also under different terms, see included comment or package licenses.
 
 ## Acknowledgments
 - David Capello did a significant part of the work on inter-processing API for Aseprite
 - Async handling (async_loop.py) is based on [Blender Cloud Addon](https://cloud.blender.org/services)
+- IllusionOfMana for the original [Freebambase](https://github.com/illusionofmana/freebambase) fork (Which this repo is derived from).
