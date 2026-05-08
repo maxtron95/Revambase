@@ -1,0 +1,29 @@
+schema_version = "1.0.0"
+
+id = "revambase"
+version = "1.0.0"
+name = "Revambase"
+tagline = "Sync between Blender and a sprite editor."
+maintainer = "maxtron95"
+type = "add-on"
+website = "https://github.com/maxtron95/Revambase/"
+tags = ["Paint", "UV", "Import-Export"]
+blender_version_min = "4.2.0"
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+copyright = [
+  "2026 maxtron95",
+  "2024-2025 IllusionofMana",
+  "2021-2024 lampysprites",
+]
+
+platforms = ["windows-x64", "macos-arm64", "linux-x64"]
+wheels = [
+   "./thirdparty/hexdump-3.3-py3-none-any.whl",
+   "./thirdparty/jsmin-3.0.1-py3-none-any.whl",
+]
+
+[permissions]
+network = "Needed to sync data between Blender and the editor."
+files = "To install plugins to the sprite editors."
