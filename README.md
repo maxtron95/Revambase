@@ -1,5 +1,10 @@
-# Pribambase
-Pribambase is a helper tool to ease and speed up lowpoly pixel textured, or 2.5D pixel art workflow. It links Blender with Aseprite (and later... others), and handles a lot of repetitive manual operations which otherwise constitute a large and unexciting portion of the process.
+<p align="center">
+  <img width="128" height="128" src="https://github.com/maxtron95/Revambase/blob/main/logos/revambase-icon.png">
+</p>
+
+<h1 align="center">Revambase</h1>
+
+Revambase is a helper tool to ease and speed up lowpoly pixel textured, or 2.5D pixel art workflow. It links Blender with Aseprite (and later... others), and handles a lot of repetitive manual operations which otherwise constitute a large and unexciting portion of the process.
 
 * Paint in Aseprite with instant viewport feedback in Blender. No need to save or export files.
 * Display UV map in Aseprite, which updates as you change the model.
