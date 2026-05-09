@@ -45,6 +45,9 @@ pip download -d thirdparty --platform win32 --only-binary=:all: -r requirements.
 Pribambase's creator abandoned the project due to its scope and time requirements. Please do not harass them for this choice. This is here to continue the work made on the plugin and offer a path forward that will both keep this plugin free and available as well as give it the opportunity to mature. 
 
 ## Links
+* [How Do I...](https://github.com/maxtron95/Revambase/wiki/How-To) tutorials and advice.
+* [Issue tracker](https://github.com/maxtron95/Revambase/issues) for bug reports and feature requests.
+
 Via Lampysprites (original creator) NOTE: These links may be dead please refer to the next section for further information
 
 * [How Do I...](https://github.com/lampysprites/pribambase/wiki/How-Do-I...) tutorials and advice.
